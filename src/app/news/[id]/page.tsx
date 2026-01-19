@@ -5,6 +5,7 @@ export default async function NewsDetail({ params }: { params: Promise<{ id: str
   // params를 기다렸다가(await) 가져옵니다.
   const { id } = await params;
 
+  
   return (
     <div className="p-10">
       <h1 className="text-2xl font-bold mb-4">뉴스 상세 페이지</h1>

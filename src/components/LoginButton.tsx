@@ -10,7 +10,7 @@ export default function LoginButton() {
       onClick={handleLogin}
       className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition"
     >
-      로그인
+      로s그인
     </button>
   );
 }
